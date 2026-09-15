@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color:#212121 ;
+            color :#fff;
+        }
+    </style>
+</head>
+<body class ="bg-black">
+    <div>
+        <h1 id ="title" class ="heading">DOM learning on chai aur code <span style="display: none;"> test text</span></h1>
+        <h2>Lorem ipsum dolor sit a adipisicing elit. nulla veritatis! Iusto quis </h2>
+        <h2>Lorem ipsum dolor sit a adipisicing elit. nulla veritatis! Iusto quis </h2>
+        <h2>Lorem ipsum dolor sit a adipisicing elit. nulla veritatis! Iusto quis </h2>
+       
+        <p>Lorem, ipsum dolor sit amet g</p>
+        <input type="password" name ="" id="">
+
+        <ul>
+            <li class = "list-item">one</li>
+            <li class = "list-item">two</li>
+            <li class = "list-item">three</li>
+            <li class = "list-item">four</li>
+        </ul>
+    </div>
+    
+</body>
+<script>
+    // document.getElementById('title')// to select the line 
+    //  document.getElementById('title').id // to select the id
+    //   document.getElementById('title').class //undefine
+    //    document.getElementById('title').className// heading
+
+//     document.getElementById('title').getAttribute("id")// title
+//     document.getElementById('title').getAttribute("class") // heading
+
+
+//     document.getElementById('title').setAttribute("class","test") // to set test in class
+//     document.getElementById('title').setAttribute("class","test heading")// to set both
+
+
+//     const title = document.getElementById('title')
+//     title.style.backgroundColor = "green"
+//     title.style.padding = "15px"
+//     title.style.borderRadius = "15px"// to set css on title line
+
+
+
+    // title.textContent // to get full line which was also deleted
+    // title.innerHTML //to get full line with full html and css
+    // title.innerText //'to get the line which was seen
+
+
+
+//     document.querySelector('h2') // get full line with html amd css
+//     document.querySelector("#title") // get full line of id = title
+//     document.querySelector('input[type="password"]')
+//     document.querySelector('ul')// selct ul
+
+
+
+
+
+// const myul = document.querySelector('ul')//undefined
+// myul.querySelector('li')//to select li of one value
+// const turnGreen = myul.querySelector('li')//undefined
+// turnGreen.style.backgroundcolor = "green"
+// turnGreen.style.padding ="10px"
+// turnGreen.innerText // get value one
+// turnGreen.innerText = "five" // to get value five
+
+
+// document.querySelectorAll('li')
+// const tempLiList = document.querySelectorAll('li')
+// tempLiList[0].style.color="green"//color of index 1 is green 
+
+// const myH1 = document.querySelectorAll('h1')
+// myH1[0].style.color = "green" // to set the color green
+  
+  
+
+// document.getElementsByClassName('list-item')
+//  const tempClassList = document.getElementsByClassName('list-item')//undefine
+// tempClassList.forEach(function(li){
+//     console.log(li)
+// }) //error
+// tempClassList
+// Array.from(tempClassList)
+//  myConvertedArray.forEach(function(li){
+//      li.style.color = "orange"
+//  })// change the li in orange color
+
+
+   
+</script>
+</html>
