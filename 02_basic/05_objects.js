@@ -4,18 +4,18 @@ const course ={
     courseInstructor : "hitesh"
 }
 
-// console.log(course.courseInstructor);
+console.log(course.courseInstructor);
 
 const {courseInstructor : instructor} = course
 
-// console.log(courseInstructor);
+console.log(courseInstructor);
 console.log(instructor);
 
-// {
-//     name : "hitesh",
-//     coursename : "js in hindi",
-//     price : "free"
-// }
+{
+    name : "hitesh",
+    coursename : "js in hindi",
+    price : "free"
+}
 
 [
     {},
